@@ -1,11 +1,5 @@
-var express = require('express');
-var msg = require('./mod_teste');
+var app = require('./config/server')
 
-
-var app = express();
-
-
-app.set('view engine','ejs');
 
 app.get('/',function(req,res){
 	res.render("home/index.ejs");
@@ -21,6 +15,5 @@ app.get('/noticias',function(req,res){
 
 
 app.listen(3000, function(){
-	console.log("Servidor Rodando com Express");
-	console.log(msg());
+	console.log("Servidor ON");
 });
