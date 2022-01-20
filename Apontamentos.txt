@@ -1,0 +1,25 @@
+Rodar Nodemon para executar a aplicação
+=======================================
+
+nodemon app
+
+
+Rodar Mysql por linha de comando
+=======================================
+
+C:\xampp\mysql\bin 
+
+//Rodar mysql como root
+mysql -u root -p
+
+//listar databases
+show databases;
+
+// mudar para o banco
+use portal_noticias;
+
+//listar tabelas
+show tables;
+
+//selecionar 10 primeiras linhas de uma tabela
+select * from noticias limit 10;
