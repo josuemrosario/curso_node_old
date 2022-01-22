@@ -1,3 +1,10 @@
+Comandos GIT
+=============
+
+git add .
+git commit -m "secao 9 implementando classes"
+git push origin master
+
 Rodar Nodemon para executar a aplicação
 =======================================
 
