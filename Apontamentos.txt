@@ -3,7 +3,7 @@ Comandos GIT
 
 git add .
 git commit -m "secao 9 implementando classes"
-git push origin master
+git push origin main
 
 Rodar Nodemon para executar a aplicação
 =======================================
@@ -79,8 +79,21 @@ insert into
       values('titulo da noticia1','conteudo da noticia1');
 
 
+ALTERADOS NO REFACTORING DA SECAO 10
+
+alter table noticias add column resumo varchar(100);
+alter table noticias add column autor varchar(30);
+alter table noticias add data_noticia date;
+
+
 
 INSTALANDO O BODY PARSER
 =======================================
 npm install body-parser@1.17.2 --save
+
+
+INSTALANDO O EXPRESS VALIDATOR
+=======================================
+
+npm install --save express-validator@3.2.0 -E
    
